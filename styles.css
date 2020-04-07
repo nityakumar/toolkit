@@ -1,0 +1,111 @@
+*, ::before, ::after {box-sizing: border-box;}
+@media only screen and (min-width: 600px){
+/* .background{
+    background-image: url("backroundimg.jpg");
+    height:100vh;
+    width:2300%;
+    background-size:cover;
+} */
+.cursor{
+    cursor:url('about.png'),auto;
+}
+body {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    /* cursor:pointer; */
+    /* background-color: midnightblue; */
+    background-image: url('backroundimg.jpg');
+    /* cursor:url('about.png'),auto; */
+}
+.intro{
+    font-size: 10vw;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: lightgreen;
+    margin-top:0;
+    margin-left:0;  
+    /* cursor:url('about.png'),auto; */
+}
+.intro2{
+    opacity:0;
+}
+#word {
+    font-size: 10vw;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: lightgreen;
+    text-align: left;
+    opacity:0;
+    /* cursor:url('about.png'),auto; */
+}
+#word:hover{
+    opacity:1;
+    cursor:url('about.png'),auto;
+
+}
+#sentence {
+    font-size: 10vw;
+    font-family:'Courier New', Courier, monospace, sans-serif;
+    color: lightcoral;
+    text-align: left;
+    opacity:0;
+    /* cursor:url('about.png'),auto; */
+}
+#sentence:hover{
+    opacity:1;
+
+}
+ /* @font-face {
+    font-family: 'MyWebFont';
+    src: url('webfont.ttf')  format('truetype'); */ */
+ 
+ }
+@media only screen and (max-width: 600px){
+
+.intro{
+    opacity:0;
+}
+
+.intro2{
+    opacity:1;
+    font-size: 17vw;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: lightgreen;
+    margin-top:0;
+    margin-left:0;
+}
+#word {
+    font-size: 17vw;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: lightgreen;
+    text-align: left;
+    opacity:1;
+    /* cursor:url('about.png'),auto; */
+}
+
+#sentence {
+    font-size: 17vw;
+    font-family:'Courier New', Courier, monospace, sans-serif;
+    color: lightcoral;
+    text-align: left;
+    opacity:1;
+    /* cursor:url('about.png'),auto; */
+}
+body {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 5vw;
+    /* cursor:pointer; */
+    /* background-color: midnightblue; */
+    background-image: url('backroundimg.jpg');
+    /* cursor:url('about.png'),auto; */
+}
+
+}
